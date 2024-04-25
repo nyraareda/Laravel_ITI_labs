@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('slug')->unique()->nullable()->after('title'); // Add the slug column here
             $table->text('body');
             $table->text('posted_by')->nullable();
             $table->timestamps();
