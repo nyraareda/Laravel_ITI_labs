@@ -1,6 +1,8 @@
 ## Package i use for this task
 laravel/ui -> to use bootstrap ui and auth
+
 spatie/laravel-sluggable -> to make slug generate from title to be unique
+
 laravel/socialite -> to login with github
 
 
